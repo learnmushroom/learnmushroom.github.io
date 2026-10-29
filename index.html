@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mushroom Spawn Quick Guide: Types, Storage and Health Checks</title>
+<meta name="description" content="A short guide to mushroom spawn: what it means, the three main types, how to tell healthy spawn from contaminated spawn, and how to store it.">
+<meta property="og:title" content="Mushroom Spawn Quick Guide: Types, Storage and Health Checks">
+<meta property="og:description" content="What spawn means, the three main types, and how to check that it is healthy.">
+<meta property="og:type" content="article">
+<style>
+  :root {
+    --bg: #f2f5f2;
+    --surface: #ffffff;
+    --ink: #17261f;
+    --muted: #55655d;
+    --line: #d3dcd5;
+    --accent: #1f6a55;
+    --good: #1f6a55;
+    --bad: #a6422a;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101915;
+      --surface: #17231e;
+      --ink: #e8efea;
+      --muted: #a2b2a9;
+      --line: #2c3b34;
+      --accent: #6fcfb0;
+      --good: #6fcfb0;
+      --bad: #ee8b6e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 46rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+  h1, h2 { font-family: Georgia, "Times New Roman", serif; line-height: 1.2; }
+  h1 { font-size: clamp(2rem, 6vw, 3rem); margin: 0 0 1rem; letter-spacing: -0.01em; }
+  h2 { font-size: 1.5rem; margin: 2.75rem 0 0.75rem; }
+  p { margin: 0 0 1rem; }
+  .lead { font-size: 1.2rem; color: var(--muted); max-width: 38rem; }
+  .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; min-width: 30rem; }
+  th, td { text-align: left; padding: 0.8rem 1rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 600; background: color-mix(in srgb, var(--accent) 10%, var(--surface)); }
+  tr:last-child td { border-bottom: 0; }
+  td:first-child { font-weight: 600; white-space: nowrap; }
+  .check { display: grid; gap: 1rem; grid-template-columns: 1fr 1fr; }
+  .check section { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 1rem 1.25rem; }
+  .check h3 { margin: 0 0 0.5rem; font-size: 1.05rem; }
+  .check .good { border-left: 5px solid var(--good); }
+  .check .bad { border-left: 5px solid var(--bad); }
+  .check ul { margin: 0; padding-left: 1.1rem; }
+  .check li { margin-bottom: 0.35rem; }
+  details { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 0.85rem 1.1rem; margin-bottom: 0.75rem; }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { margin: 0.6rem 0 0; }
+  .more { margin-top: 3rem; padding: 1.25rem 1.5rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+  .more p { margin: 0; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  footer { margin-top: 2.5rem; color: var(--muted); font-size: 0.9rem; }
+  @media (max-width: 38rem) { .check { grid-template-columns: 1fr; } }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does spawn mean in mushroom growing?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Spawn is living mycelium growing on a carrier such as grain, sawdust or wooden dowels. You add it to a fresh substrate so the mycelium can spread and form mushrooms." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is mushroom spawn alive?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Spawn is living mycelium, so it should be stored cool and used while it is fresh." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<main>
+  <h1>Mushroom spawn: a quick guide</h1>
+  <p class="lead">Spawn is the living starter that carries a mushroom’s mycelium into a new growing material. This page covers the three main types, how to check that your spawn is healthy, and how to store it.</p>
+
+  <h2>What spawn means</h2>
+  <p>Spawn is mycelium, the white, thread-like body of the fungus, growing on a carrier such as grain, sawdust or small wooden dowels. You mix it into a fresh substrate so the mycelium can spread and eventually form mushrooms. It works like a starter, not like a seed and not like a spore.</p>
+
+  <h2>The three main types</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Type</th><th>Carrier</th><th>Best for</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Grain spawn</td><td>Rye, millet or wheat</td><td>Bags, buckets and straw. Colonizes fast, popular for oyster mushrooms.</td></tr>
+        <tr><td>Sawdust spawn</td><td>Hardwood sawdust</td><td>Log inoculation and sawdust blocks. Often used for shiitake.</td></tr>
+        <tr><td>Plug spawn</td><td>Wooden dowels</td><td>Outdoor logs. Simple to use, but slower, often several months before the first flush.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Is your spawn healthy?</h2>
+  <div class="check">
+    <section class="good">
+      <h3>Good signs</h3>
+      <ul>
+        <li>White to off-white growth</li>
+        <li>An earthy, mushroom-like smell</li>
+        <li>Even coverage on the carrier</li>
+      </ul>
+    </section>
+    <section class="bad">
+      <h3>Warning signs</h3>
+      <ul>
+        <li>Green, black or pink patches</li>
+        <li>Slimy or wet-looking carrier</li>
+        <li>A sour or rotten smell</li>
+      </ul>
+    </section>
+  </div>
+  <p style="margin-top:1rem">If you see colored patches or smell something sour, do not use that spawn. Contact the seller with clear photos.</p>
+
+  <h2>Storage</h2>
+  <p>Keep spawn sealed, cool and out of direct sun. It is alive, so use it as soon as you can after it arrives. If you need to wait, a cool spot or the refrigerator for a short time is usually fine. Always follow the instructions that came with your product.</p>
+
+  <h2>Common mistakes</h2>
+  <ul>
+    <li>Using too little spawn for the amount of substrate</li>
+    <li>Opening and mixing in a dusty room</li>
+    <li>Choosing a spawn type that does not suit your substrate</li>
+  </ul>
+
+  <h2>Questions</h2>
+  <details>
+    <summary>What does spawn mean in mushroom growing?</summary>
+    <p>Spawn is living mycelium growing on a carrier such as grain, sawdust or wooden dowels. You add it to a fresh substrate so the mycelium can spread and form mushrooms.</p>
+  </details>
+  <details>
+    <summary>Is mushroom spawn alive?</summary>
+    <p>Yes. Spawn is living mycelium, so it should be stored cool and used while it is fresh.</p>
+  </details>
+
+  <div class="more">
+    <p>For the full breakdown, including how much spawn to use and how to choose a supplier, read <a href="https://learnmushroom.com/what-is-mushroom-spawn/">What Is Mushroom Spawn? Types, Uses and How to Choose</a> on learnmushroom.com.</p>
+  </div>
+
+  <footer>General information only. Never eat a mushroom you cannot identify with confidence.</footer>
+</main>
+</body>
+</html>
